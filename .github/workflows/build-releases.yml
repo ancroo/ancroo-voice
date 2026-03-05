@@ -9,6 +9,9 @@ on:
       - dev   # Build test artifacts on dev branch (no release)
   workflow_dispatch:  # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   # =============================================================================
   # Windows Build
@@ -177,9 +180,6 @@ jobs:
     needs: [build-windows, build-linux]
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/')
-    permissions:
-      contents: write
-
     steps:
       - name: Download all artifacts
         uses: actions/download-artifact@v4
