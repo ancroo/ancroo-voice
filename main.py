@@ -17,7 +17,7 @@ Features:
 
 Copyright (c) Stefan Schmidbauer
 License: MIT License
-GitHub: https://github.com/Stefan-Schmidbauer/ancroo-voice
+GitHub: https://github.com/ancroo/ancroo-voice
 """
 
 import os

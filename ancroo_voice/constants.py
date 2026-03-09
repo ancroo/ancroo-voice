@@ -48,7 +48,7 @@ CONFIG_DIR = get_platform_config_dir()
 CONFIG_FILE = CONFIG_DIR / f'{APP_NAME}_config.json'
 
 # GitHub URL
-GITHUB_URL = "https://github.com/Stefan-Schmidbauer/ancroo-voice"
+GITHUB_URL = "https://github.com/ancroo/ancroo-voice"
 
 # Key mapping constants for hotkey parsing
 KEY_MAP = {

@@ -4,7 +4,7 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Status: Beta](https://img.shields.io/badge/Status-Beta-yellow.svg)]()
 
-Push-to-talk speech-to-text client for the [Ancroo Stack](https://github.com/Stefan-Schmidbauer/ancroo-stack). Hold a hotkey, speak, release - text appears at your cursor.
+Push-to-talk speech-to-text client for the [Ancroo Stack](https://github.com/ancroo/ancroo-stack). Hold a hotkey, speak, release - text appears at your cursor.
 
 Transcription is managed centrally by the Ancroo Backend — the client just sends audio. Lightweight binary for Linux and Windows, no local GPU required.
 
@@ -53,8 +53,8 @@ Download the latest release for your platform:
 
 | Platform    | Download                                                                                       |
 | ----------- | ---------------------------------------------------------------------------------------------- |
-| **Windows** | [AncrooVoice-Windows.zip](https://github.com/Stefan-Schmidbauer/ancroo-voice/releases/latest)  |
-| **Linux**   | [AncrooVoice-Linux.tar.gz](https://github.com/Stefan-Schmidbauer/ancroo-voice/releases/latest) |
+| **Windows** | [AncrooVoice-Windows.zip](https://github.com/ancroo/ancroo-voice/releases/latest)  |
+| **Linux**   | [AncrooVoice-Linux.tar.gz](https://github.com/ancroo/ancroo-voice/releases/latest) |
 
 ## Quick Start
 
