@@ -116,6 +116,21 @@ Ancroo Voice connects to the **Ancroo Backend**, which manages STT model and ser
 | `.env` / `ancroo-voice.ini` | Backend connection | `.env` on Linux, `.ini` on Windows |
 | `ancroo-voice_config.json`  | GUI settings       | Auto-saved by the application      |
 
+## Acknowledgments
+
+This project is built with the following open-source software:
+
+| Project | Purpose | License |
+|---------|---------|---------|
+| [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) | GUI framework | MIT |
+| [pynput](https://github.com/moses-palmer/pynput) | Global hotkey listener | LGPL-3.0 |
+| [sounddevice](https://github.com/spatialaudio/python-sounddevice) | Audio recording | MIT |
+| [NumPy](https://numpy.org/) | Audio processing | BSD-3-Clause |
+| [Pillow](https://python-pillow.org/) | Image handling | HPND |
+| [Requests](https://requests.readthedocs.io/) | HTTP client | Apache-2.0 |
+
+Speech-to-text is provided by [OpenAI Whisper](https://github.com/openai/whisper) (MIT) models running on your server via the [Ancroo Stack](https://github.com/ancroo/ancroo-stack).
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The Ancroo name is not covered by this license and remains the property of the author.
