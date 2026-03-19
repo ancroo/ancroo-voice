@@ -8,7 +8,7 @@ Push-to-talk speech-to-text client for the [Ancroo Stack](https://github.com/anc
 
 Transcription is managed centrally by the Ancroo Backend — the client just sends audio. Lightweight binary for Linux and Windows, no local GPU required.
 
-> **Early stage** — Ancroo Voice is under active development and intended for local/trusted networks only. Do not connect to servers exposed to the public internet without security measures.
+> **Phase 0 (Beta)** — Ancroo Voice works end-to-end, but the backend it connects to runs without encryption or authentication by default. Intended for local/trusted networks only. See the [Ancroo Roadmap](https://github.com/ancroo/ancroo/blob/main/ROADMAP.md) for the security path forward.
 
 ![Ancroo Voice GUI](ancroo-voice.png)
 
