@@ -11,7 +11,7 @@ Transcription is managed centrally by the Ancroo Backend — the client just sen
 
 > **Phase 0 (Beta)** — Ancroo Voice is functional for local use, but the backend it connects to runs without encryption or authentication by default and is still under active development. Intended for local/trusted networks only. See the [Ancroo Roadmap](https://github.com/ancroo/ancroo/blob/main/ROADMAP.md) for the security path forward.
 
-![Ancroo Voice GUI](ancroo-voice.png)
+![Ancroo Voice GUI](assets/screenshots/ancroo-voice.png)
 
 ## How It Works
 

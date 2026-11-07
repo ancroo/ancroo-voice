@@ -50,7 +50,7 @@ jobs:
           copy .env.example dist-package\ancroo-voice.ini
           copy README.md dist-package\
           copy LICENSE dist-package\
-          if exist ancroo-voice.png copy ancroo-voice.png dist-package\
+          if exist assets\screenshots xcopy /E /I /Y assets\screenshots dist-package\assets\screenshots
         shell: cmd
 
       - name: Upload artifact
@@ -154,7 +154,7 @@ jobs:
           cp .env.example dist-package/ancroo-voice.ini
           cp README.md dist-package/
           cp LICENSE dist-package/
-          [ -f ancroo-voice.png ] && cp ancroo-voice.png dist-package/ || true
+          if [ -d assets/screenshots ]; then mkdir -p dist-package/assets && cp -r assets/screenshots dist-package/assets/; fi
 
           # Create launcher script that works without libfuse2 (APPIMAGE_EXTRACT_AND_RUN)
           cat > dist-package/AncrooVoice-Linux.sh << 'EOF'
